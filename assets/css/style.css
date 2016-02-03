@@ -2,11 +2,11 @@
 
 /*------------------------------------------------------------------
   [Table of contents]
-  * To keep an overview of structure of your code, we make use of table of 
+  * To keep an overview of structure of your code, we make use of table of
   * content. Table of content is use display the overall tree structure of your
-  * Layout. 
+  * Layout.
   * (NOTE: Remove this commented code once you start developing the code.
-  * Remove the following table of content and add your own as this is just and 
+  * Remove the following table of content and add your own as this is just and
   * example to let you know)
 
   1. CSS Reset Code
@@ -31,9 +31,9 @@
 /*------------------------------------------------------------------
   [Color codes]
   * Mention the color code you have used in your html document for the respective
-  * elements given as follow. 
-  * (NOTE: Remove this commented code once you start developing the code. 
-  * Remove the following color code and add your own as this is just and 
+  * elements given as follow.
+  * (NOTE: Remove this commented code once you start developing the code.
+  * Remove the following color code and add your own as this is just and
   * example to let you know)
 
   Header nav: #e5e5df (Cararra)
@@ -45,8 +45,8 @@
   [Typography]
   * Mention the Typography you have used in your html document for the respective
   * elements given as follow.
-  * (NOTE: Remove this commented code once you start developing the code. 
-  * Remove the following typography and add your own as this is just and 
+  * (NOTE: Remove this commented code once you start developing the code.
+  * Remove the following typography and add your own as this is just and
   * example to let you know)
 
   Header nav a: 16px 'Futura Bold', 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -144,7 +144,7 @@ sub { bottom: -.25em; }
  * apply to the element wherever it is needed. If any single property in changed,
  * then override only that property in the particular class which is used for the
  * element.
- * (NOTE: Remove this commented code once you start 
+ * (NOTE: Remove this commented code once you start
  * developing the code. Remove the following font class and add your own
  * as this is just and example to let you know. If there is only one font family
  * followed throughout the site, then menstion the font property in body. No need
@@ -154,4 +154,8 @@ sub { bottom: -.25em; }
   font-family: 'Futura Bold', 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
+}
+header img{
+  height: auto;
+  width: 100%;
 }
